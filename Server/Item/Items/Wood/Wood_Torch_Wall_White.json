@@ -1,0 +1,126 @@
+{
+  "TranslationProperties": {
+    "Name": "server.items.Wood_Torch_Wall.name"
+  },
+  "ItemLevel": 10,
+  "MaxStack": 100,
+  "Icon": "Icons/ItemsGenerated/Wood_Torch_Wall.png",
+  "PlayerAnimationsId": "Item",
+  "Interactions": {
+    "Primary": "Root_Unarmed_Attack_Swing_Left",
+    "Secondary": "Block_Secondary"
+  },
+  "InteractionVars": {
+    "Torch_Swing_Left_Effect": "Torch_Swing_Left_Effect",
+    "Torch_Swing_Right_Effect": "Torch_Swing_Right_Effect",
+    "Torch_Swing_Left_Damage": "Torch_Swing_Left_Damage",
+    "Torch_Swing_Right_Damage": "Torch_Swing_Right_Damage"
+  },
+  "BlockType": {
+    "Material": "Empty",
+    "DrawType": "Model",
+    "Opacity": "Transparent",
+    "CustomModel": "Items/Torch/Torch_Wall.blockymodel",
+    "CustomModelTexture": [
+      {
+        "Texture": "Items/Torch/Torch_Wall_Texture.png",
+        "Weight": 1
+      }
+    ],
+    "HitboxType": "Torch_Wall",
+    "Flags": {},
+    "Gathering": {
+      "Soft": {
+        "IsWeaponBreakable": false,
+        "ItemId": "Furniture_Crude_Torch"
+      }
+    },
+    "PlacementSettings": {
+      "RotationMode": "BlockNormal",
+      "PlaceInEmptyBlocks": true
+    },
+    "VariantRotation": "NESW",
+    "BlockParticleSetId": "Dust",
+    "BlockSoundSetId": "Torch",
+    "Light": {
+      "Color": "#bbb",
+      "Radius": 0
+    },
+    "Particles": [
+      {
+        "SystemId": "Torch_Fire_White",
+        "TargetNodeName": "Flame",
+        "Scale": 0.55,
+        "PositionOffset": {
+          "Y": -0.08
+        },
+        "RotationOffset": {
+          "Yaw": 180
+        }
+      }
+    ],
+    "InteractionHint": "server.interactionHints.turnoff",
+    "Interactions": {
+      "Use": {
+        "Interactions": [
+          {
+            "Type": "ChangeState",
+            "Changes": {
+              "default": "Off",
+              "Off": "default"
+            }
+          }
+        ]
+      }
+    },
+    "State": {
+      "Definitions": {
+        "On": {
+          "AmbientSoundEventId": "SFX_Torch_On_Loop"
+        },
+        "Off": {
+          "InteractionHint": "server.interactionHints.turnon",
+          "Light": null,
+          "Particles": null,
+          "InteractionSoundEventId": "SFX_Torch_Off",
+          "AmbientSoundEventId": null,
+          "CustomModelAnimation": "Items/Torch/Torch_Off.blockyanim"
+        }
+      }
+    },
+    "Support": {
+      "North": [
+        {
+          "FaceType": "Full"
+        }
+      ]
+    },
+    "AmbientSoundEventId": "SFX_Torch_Default_Loop",
+    "Looping": true,
+    "Tint": [
+      "#ffffff"
+    ]
+  },
+  "IconProperties": {
+    "Rotation": [
+      22.5,
+      45,
+      22.5
+    ],
+    "Scale": 0.81,
+    "Translation": [
+      5.7,
+      -19.5
+    ]
+  },
+  "Utility": {
+    "Usable": true
+  },
+  "Tags": {
+    "Type": [
+      "Wood"
+    ]
+  },
+  "ItemSoundSetId": "ISS_Blocks_Wood",
+  "Variant": true
+}

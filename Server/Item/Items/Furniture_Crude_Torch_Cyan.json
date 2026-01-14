@@ -75,7 +75,7 @@
     "CustomModelScale": 0.6,
     "Light": {
       "Radius": 0,
-      "Color": "#c00"
+      "Color": "#0bb"
     },
     "Flags": {},
     "RandomRotation": "YawStep1",
@@ -85,7 +85,7 @@
       }
     },
     "PlacementSettings": {
-      "WallPlacementOverrideBlockId": "Wood_Torch_Wall_Red",
+      "WallPlacementOverrideBlockId": "Wood_Torch_Wall_Cyan",
       "AllowRotationKey": false,
       "PlaceInEmptyBlocks": true
     },
@@ -122,7 +122,7 @@
     "MovementSettings": {},
     "Particles": [
       {
-        "SystemId": "Torch_Fire_Red",
+        "SystemId": "Torch_Fire_Cyan",
         "Scale": 0.7,
         "PositionOffset": {
           "Y": -0.2
@@ -166,7 +166,7 @@
     "ParticleColor": "#63412c",
     "VariantRotation": "NESW",
     "Tint": [
-      "#ffbaba"
+      "#baffff"
     ]
   },
   "PlayerAnimationsId": "Torch",
@@ -182,7 +182,7 @@
       22.5
     ]
   },
-  "Icon": "Icons/Items/Furniture_Crude_Torch_Red.png",
+  "Icon": "Icons/Items/Furniture_Crude_Torch_Cyan.png",
   "ResourceTypes": [
     {
       "Id": "Fuel"

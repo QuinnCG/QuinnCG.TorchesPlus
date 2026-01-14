@@ -85,7 +85,7 @@
       }
     },
     "PlacementSettings": {
-      "WallPlacementOverrideBlockId": "Wood_Torch_Wall",
+      "WallPlacementOverrideBlockId": "Wood_Torch_Wall_White",
       "AllowRotationKey": false,
       "PlaceInEmptyBlocks": true
     },
