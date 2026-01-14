@@ -4,7 +4,7 @@
   },
   "ItemLevel": 10,
   "MaxStack": 100,
-  "Icon": "Icons/ItemsGenerated/Wood_Torch_Wall.png",
+  "Icon": "Icons/Items/Wood_Torch_Wall_Red.png",
   "PlayerAnimationsId": "Item",
   "Interactions": {
     "Primary": "Root_Unarmed_Attack_Swing_Left",
