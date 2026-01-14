@@ -1,0 +1,22 @@
+{
+  "$Comment": "Candidate to stay Cartoon",
+  "CullDistance": 100,
+  "Spawners": [
+    {
+      "SpawnerId": "Torch_Smoke_Cartoon"
+    },
+    {
+      "Attractors": [],
+      "SpawnerId": "Torch_Fire_Center_Red"
+    },
+    {
+      "SpawnerId": "Torch_Fire_Up_Red"
+    },
+    {
+      "SpawnerId": "Fire_Center_White"
+    },
+    {
+      "SpawnerId": "Torch_Sparks_Up_Red"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "Group": "QuinnCG",
+  "Name": "TorchesPlus",
+  "Version": "1.0.0",
+  "Description": "Adds alternative colors to the base crude torch item.",
+  "Authors": [
+    {
+      "Name": "Quinn C.G.",
+      "Email": "quinncg.dev@gmail.com",
+      "Url": ""
+    }
+  ],
+  "Website": "",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "LoadBefore": {},
+  "DisabledByDefault": false,
+  "IncludesAssetPack": false,
+  "SubPlugins": []
+}
