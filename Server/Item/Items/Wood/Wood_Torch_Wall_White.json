@@ -32,7 +32,7 @@
     "Gathering": {
       "Soft": {
         "IsWeaponBreakable": false,
-        "ItemId": "Furniture_Crude_Torch"
+        "ItemId": "Furniture_Crude_Torch_White"
       }
     },
     "PlacementSettings": {
